@@ -1,12 +1,13 @@
-import ListItem from 'components/ListItem';
+import { ReactElement } from 'react';
 
+import ListItem from 'components/ListItem';
 import { User } from 'interfaces';
 
 type Props = {
   items: User[];
 };
 
-const List = ({ items }: Props) => (
+const List = ({ items }: Props): ReactElement => (
   <ul>
     {items.map(item => (
       <li key={item.id}>

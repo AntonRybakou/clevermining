@@ -1,13 +1,11 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import { ReactElement } from 'react';
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link className='link' href="/about">About</Link>
-    </p>
+import Layout from '../components/Layout';
+
+const IndexPage = (): ReactElement => (
+  <Layout title="Clevermining">
+    <h1>MAIN PAGE</h1>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

@@ -3,3 +3,26 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+* {
+    background-color: #242629;
+    color: #fffffe;
+
+    font-family: "Railway", sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+#__next {
+    @apply min-h-full flex flex-col
+}
+
+.main-wrapper {
+    flex: 1 1 auto;
+}
+
+.menu-link {
+    @apply block hover:text-blue-400 text-xl font-medium tracking-wide
+}
