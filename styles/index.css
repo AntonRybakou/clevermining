@@ -1,7 +1,5 @@
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
 
 * {
@@ -22,6 +20,6 @@ html, body {
     flex: 1 1 auto;
 }
 
-.menu-link {
+.header-nav-link {
     @apply block hover:text-blue-400 text-xl font-medium tracking-wide
 }

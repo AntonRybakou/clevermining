@@ -11,7 +11,7 @@ const Header = (): ReactElement => {
       <nav>
         <ul className="flex flex-wrap flex-row gap-10 relative">
           <li>
-            <Link className="menu-link" href="/">
+            <Link className="header-nav-link" href="/">
               Главная
             </Link>
           </li>
@@ -19,21 +19,21 @@ const Header = (): ReactElement => {
             onMouseEnter={() => setIsMenuOpen(true)}
             onMouseLeave={() => setIsMenuOpen(false)}
           >
-            <Link className="menu-link" href="/products">
+            <Link className="header-nav-link" href="/products">
               Продукты
             </Link>
             {isMenuOpen && (
               <ul className="absolute z-10 border border-lime-400">
-                <li className="menu-link">
+                <li className="header-nav-link">
                   <Link href="/products/INTSITE">INTSITE</Link>
                 </li>
-                <li className="menu-link">
+                <li className="header-nav-link">
                   <Link href="/products/Sleipner">Sleipner</Link>
                 </li>
-                <li className="menu-link">
+                <li className="header-nav-link">
                   <Link href="/products/INTSITE">Evaporation King</Link>
                 </li>
-                <li className="menu-link">
+                <li className="header-nav-link">
                   <Link href="/products/INTSITE">
                     Реактивные установки очистки вагонов
                   </Link>
@@ -42,12 +42,12 @@ const Header = (): ReactElement => {
             )}
           </li>
           <li>
-            <Link className="menu-link" href="/about">
+            <Link className="header-nav-link" href="/about">
               О нас
             </Link>
           </li>
           <li>
-            <Link className="menu-link" href="/contacts">
+            <Link className="header-nav-link" href="/contacts">
               Контакты
             </Link>
           </li>
