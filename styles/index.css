@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    background-color: #242629;
+    @apply bg-neutral-800;
+    /*background-color: #242629;*/
     color: #fffffe;
-    font-family: "Railway", sans-serif;
 }
 
 html, body {
-    height: 100%;
+    font-family: "Nunito", system-ui, sans-serif;
+    @apply h-full
 }
 
 #__next {
@@ -17,9 +20,9 @@ html, body {
 }
 
 .main-wrapper {
-    flex: 1 1 auto;
+    @apply flex-auto
 }
 
 .header-nav-link {
-    @apply block hover:text-blue-400 text-xl font-medium tracking-wide
+    @apply block hover:text-blue-400 text-lg font-medium tracking-wide
 }
