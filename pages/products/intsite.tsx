@@ -4,7 +4,7 @@ import Layout from 'components/Layout';
 
 const Intsite = (): ReactElement => (
   <Layout title="INTSITE">
-    <h1>INTSITE product page</h1>
+    <h1>INTSITE</h1>
   </Layout>
 );
 

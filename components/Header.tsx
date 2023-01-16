@@ -25,16 +25,16 @@ const Header = (): ReactElement => {
             {isMenuOpen && (
               <ul className="absolute z-10 border border-lime-400">
                 <li className="header-nav-link">
-                  <Link href="/products/INTSITE">INTSITE</Link>
+                  <Link href="/products/intsite">INTSITE</Link>
                 </li>
                 <li className="header-nav-link">
-                  <Link href="/products/Sleipner">Sleipner</Link>
+                  <Link href="/products/sleipner">Sleipner</Link>
                 </li>
                 <li className="header-nav-link">
-                  <Link href="/products/INTSITE">Evaporation King</Link>
+                  <Link href="/products/evaporationking">Evaporation King</Link>
                 </li>
                 <li className="header-nav-link">
-                  <Link href="/products/INTSITE">
+                  <Link href="/products/reactive">
                     Реактивные установки очистки вагонов
                   </Link>
                 </li>
