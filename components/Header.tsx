@@ -6,10 +6,12 @@ const Header = (): ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex flex-row items-center px-10 justify-between h-20 border border-orange-400">
-      <Link href="/">Clevermining</Link>
+    <header className="flex flex-row flex-wrap items-center px-10 justify-between h-20 border border-orange-400">
+      <Link className="header-logo" href="/">
+        Clevermining
+      </Link>
       <nav>
-        <ul className="flex flex-wrap flex-row gap-10 relative">
+        <ul className="flex flex-wrap flex-row gap-x-10 relative">
           <li>
             <Link className="header-nav-link" href="/">
               Главная
