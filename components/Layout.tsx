@@ -18,7 +18,7 @@ const Layout = ({ children, title }: Props): ReactElement => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <Header />
-    <main className="main-wrapper">{children}</main>
+    <main className="flex-auto">{children}</main>
     <Footer />
   </>
 );

@@ -2,12 +2,14 @@ import { ReactElement, useState } from 'react';
 
 import Link from 'next/link';
 
+import ProductsSubMenu from 'components/ProductsSubMenu';
+
 const Header = (): ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="flex flex-row flex-wrap items-center px-10 justify-between h-20 border border-orange-400">
-      <Link className="header-logo" href="/">
+      <Link className="font-['Press_Start_2P'] text-2xl" href="/">
         <p>Clevermining</p>
       </Link>
       <nav>
@@ -24,24 +26,7 @@ const Header = (): ReactElement => {
             <Link className="header-nav-link" href="/products">
               Продукты
             </Link>
-            {isMenuOpen && (
-              <ul className="absolute z-10 border border-lime-400">
-                <li className="header-nav-link">
-                  <Link href="/products/intsite">INTSITE</Link>
-                </li>
-                <li className="header-nav-link">
-                  <Link href="/products/sleipner">Sleipner</Link>
-                </li>
-                <li className="header-nav-link">
-                  <Link href="/products/evaporationking">Evaporation King</Link>
-                </li>
-                <li className="header-nav-link">
-                  <Link href="/products/reactive">
-                    Реактивные установки очистки вагонов
-                  </Link>
-                </li>
-              </ul>
-            )}
+            {isMenuOpen && <ProductsSubMenu />}
           </li>
           <li>
             <Link className="header-nav-link" href="/about">

@@ -14,14 +14,10 @@ html, body {
     @apply min-h-full flex flex-col
 }
 
-.header-logo {
-    @apply font-['Press_Start_2P'] text-2xl
-}
-
 .header-nav-link {
-    @apply block hover:text-[#7f5af0] text-xl font-medium tracking-wide
+    @apply block hover:text-[#7f5af0] p-1.5 text-xl font-medium tracking-wide
 }
 
-.main-wrapper {
-    @apply flex-auto
+.products-sub-menu {
+    @apply absolute z-10 w-60 p-1.5 border rounded-md bg-neutral-900
 }
