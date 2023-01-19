@@ -6,12 +6,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    @apply bg-neutral-800 text-[#fffffe]
-}
-
 html, body {
-    @apply h-full font-['Jost']
+    @apply h-full font-['Jost'] bg-neutral-800 text-[#fffffe]
 }
 
 #__next {

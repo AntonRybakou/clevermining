@@ -8,7 +8,7 @@ const Header = (): ReactElement => {
   return (
     <header className="flex flex-row flex-wrap items-center px-10 justify-between h-20 border border-orange-400">
       <Link className="header-logo" href="/">
-        Clevermining
+        <p>Clevermining</p>
       </Link>
       <nav>
         <ul className="flex flex-wrap flex-row gap-x-10 relative">
