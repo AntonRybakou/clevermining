@@ -8,7 +8,7 @@ const Header = (): ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex flex-row flex-wrap items-center px-10 justify-between h-20 border border-orange-400">
+    <header className="header-wrapper">
       <Link className="font-['Press_Start_2P'] text-2xl" href="/">
         <p>Clevermining</p>
       </Link>
