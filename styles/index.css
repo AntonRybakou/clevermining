@@ -15,21 +15,23 @@ html, body {
 
 .header-wrapper {
     @apply sticky top-0 left-0 right-0 z-10;
-    @apply w-full px-5 min-h-[5rem] flex flex-row flex-wrap items-center justify-between;
-    @apply border border-orange-400 sm:px-10 lg:px-20 xl:px-32;
-    @apply bg-neutral-800 bg-transparent backdrop-saturate-150 backdrop-blur-sm;
+    @apply w-full px-5 min-h-[5rem] flex items-center justify-between;
+    @apply sm:px-10 lg:px-20 xl:px-32;
+    @apply bg-neutral-800/50 backdrop-blur-sm;
 }
 
 .header-nav-link {
-    @apply block hover:text-[#7f5af0] p-1.5 text-2xl font-medium tracking-wide
+    @apply hover:text-orange-500 p-1.5 text-2xl font-medium tracking-wider;
+    @apply hover:underline hover:underline-offset-2 decoration-2;
 }
 
 .products-sub-menu {
-    @apply absolute z-10 w-64 p-1.5 border bg-gradient-to-r from-neutral-900;
+    @apply absolute z-10 w-64 p-1.5 rounded-l-lg bg-gradient-to-r from-neutral-900;
     @apply to-neutral-800;
-    @apply transition ease-in-out delay-150
 }
 
 .main-wrapper {
-    @apply flex flex-col flex-wrap flex-auto max-w-7xl my-0 mx-auto border border-red-600
+    @apply max-w-7xl my-0 xl:mx-auto lg:mx-20 sm:mx-10;
+    @apply flex flex-col flex-wrap flex-auto border border-red-600;
+
 }

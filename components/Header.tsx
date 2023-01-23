@@ -9,7 +9,7 @@ const Header = (): ReactElement => {
 
   return (
     <header className="header-wrapper">
-      <Link className="font-['Press_Start_2P'] text-2xl" href="/">
+      <Link className="uppercase font-['Press_Start_2P'] text-2xl" href="/">
         <p>Clevermining</p>
       </Link>
       <nav>

@@ -6,69 +6,57 @@ const IndexPage = (): ReactElement => (
   <Layout title="Clevermining">
     <h1>MAIN PAGE</h1>
     <hr />
-    <div className="text-lg">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid
-      consequatur distinctio eius maxime, neque nulla obcaecati, quam ratione recusandae
-      repellat, repellendus velit voluptate. Ad alias aperiam aspernatur assumenda aut
-      consectetur culpa dolorem facere illo ipsam magni neque nobis repellat saepe,
-      sapiente totam vitae. Ad assumenda beatae consectetur, eaque magni modi
-      necessitatibus nisi praesentium quisquam quo rem sapiente sed, sit tempora veritatis
-      voluptatem voluptates. Ad architecto commodi consectetur deleniti dolore ea eius eum
-      exercitationem facilis illum in iure iusto maiores, mollitia nihil obcaecati odit
-      perspiciatis placeat praesentium quaerat quidem repudiandae sit totam ut voluptates!
-      A atque, blanditiis consectetur corporis dicta dolor doloribus ea eius eum nisi
-      perspiciatis porro praesentium quia quod recusandae rem saepe similique vero. Ab
-      amet architecto assumenda aut consequuntur distinctio dolore earum esse laudantium
-      magni nihil pariatur, porro possimus recusandae rerum saepe similique suscipit
-      tempore vel veniam veritatis vitae voluptate voluptates! Eligendi excepturi ipsum
-      libero optio, sapiente velit voluptas. Animi asperiores assumenda aut autem
-      dignissimos doloremque doloribus, ducimus ea, enim eum ex excepturi fugiat illum
-      incidunt maiores maxime nemo nesciunt nobis nostrum numquam possimus qui tempore
-      ullam vel velit vitae voluptate. Ad error exercitationem fugit ipsam labore libero
-      molestias sed? Ad cupiditate dicta earum fugit, impedit iure maiores minus
-      necessitatibus numquam officia optio quibusdam quod reiciendis repellendus
-      repudiandae saepe similique totam. Beatae commodi consequuntur cumque delectus
-      deserunt dicta dolores eos esse et eveniet exercitationem facere laudantium magnam
-      modi nisi porro possimus quas quia quos recusandae, reprehenderit sapiente tempora
-      temporibus totam, ullam unde voluptatum. Animi debitis fuga harum mollitia nobis
-      perferendis quam quo, similique? Architecto assumenda aut, commodi dicta dolores
-      dolorum hic in itaque mollitia quae quas repudiandae sapiente similique temporibus
-      voluptate! Aliquam aperiam corporis, debitis deleniti dignissimos ex hic id illo
-      impedit labore nobis quae quaerat quasi quia repellendus tenetur vitae! Architecto,
-      neque odio? Facilis, non tempora?
+    <div className="text-xl">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dicta
+      dolorem ipsum mollitia vero! Ab corporis distinctio excepturi facilis fugiat, iure
+      maxime perspiciatis quibusdam quidem vel. Ab, blanditiis culpa cum delectus deserunt
+      dicta dignissimos dolor eos est exercitationem hic magnam maxime nesciunt nisi non
+      officia omnis quaerat quia quisquam recusandae suscipit tempora ut. Deleniti
+      doloribus magnam molestias nostrum quae qui quidem reiciendis sed unde vitae.
+      Consequuntur deserunt est fugiat impedit sunt tempora vel voluptate. A cupiditate
+      dolores id nemo perspiciatis provident totam. Aliquid aut cumque deserunt dolor,
+      excepturi hic modi quia. Aliquam aspernatur atque dolores eius numquam sed tempora?
+      Accusamus ad adipisci animi aperiam dolor ducimus laudantium, modi neque recusandae.
+      Commodi eius magnam nobis perspiciatis, quos reprehenderit sed voluptatum! A ab
+      dolores magni modi praesentium. Incidunt magni mollitia quae ratione ut? Adipisci
+      architecto blanditiis, eaque iste nemo velit. Doloribus explicabo fuga iusto laborum
+      maxime, molestias non pariatur possimus quia ratione. Beatae error fugit laboriosam,
+      numquam quaerat repellat rerum temporibus? Accusantium aliquid architecto asperiores
+      blanditiis deserunt dicta dolorem eveniet facilis impedit, in inventore ipsa itaque
+      iusto natus odit officia placeat porro praesentium quisquam rem repellat saepe unde
+      velit veniam voluptas? Autem cum esse est expedita facere id incidunt ipsa,
+      laudantium molestiae mollitia neque nesciunt officia quasi repellat sit vero, vitae.
+      Aliquid consectetur enim eos eum fuga fugiat illo ipsum iste, maxime nisi nobis
+      nulla omnis optio provident quas reiciendis reprehenderit saepe sapiente soluta
+      sunt. Aperiam asperiores ipsa minima omnis ullam. Doloremque nostrum provident
+      tempora. Ad aliquid at beatae blanditiis consectetur culpa cum dolore doloribus,
+      eaque est facilis fugiat hic iste iusto magni minima molestias nihil nobis
+      praesentium quod repellat sapiente temporibus totam ullam voluptatibus? Assumenda
+      cumque cupiditate dignissimos dolor ducimus, eaque, excepturi itaque magni molestias
+      necessitatibus quasi ratione, sequi voluptatum! Aperiam atque aut corporis dicta eum
+      iste laboriosam magnam maiores, minima modi molestiae pariatur sequi vel voluptate
+      voluptates. Ad architecto consectetur cum dolor eveniet ex facilis fugiat illo
+      libero, magnam minus modi molestias nisi nulla officiis optio quasi quod repudiandae
+      sapiente similique tempore totam velit voluptas voluptates voluptatibus? Amet
+      architecto asperiores, assumenda at atque consequatur consequuntur cupiditate
+      debitis deleniti dicta doloremque dolores doloribus minima minus nemo nulla
+      praesentium quibusdam quod sequi similique sunt vel velit. Adipisci ipsa officiis
+      porro possimus praesentium recusandae sunt tempora. At, maiores non nostrum odio
+      porro possimus quibusdam rem. Accusantium atque debitis dicta dolor error esse est,
+      eveniet expedita iste iure magni maiores maxime nam numquam odit placeat quae
+      quaerat quam, quas, quibusdam quod recusandae rerum tempora! Alias cum dicta dolorum
+      expedita explicabo, laudantium optio pariatur ullam voluptatibus. Ab accusamus
+      aliquam aut autem consequatur consequuntur doloremque, ducimus expedita labore magni
+      nemo omnis quis quos, rem repellat sint suscipit. Accusantium alias asperiores autem
+      consequatur deleniti dolores error esse harum illo in ipsa, iste iusto molestias
+      mollitia nisi nulla numquam perspiciatis quasi qui reiciendis saepe sit totam!
+      Accusamus at, cum distinctio excepturi facilis impedit in ipsum nam necessitatibus
+      qui quisquam ratione soluta vel? Asperiores aspernatur dolorem fugit nobis, possimus
+      praesentium, provident quidem recusandae repellat sint soluta velit vitae.
     </div>
+
     <hr />
-    <div className="text-lg">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid
-      consequatur distinctio eius maxime, neque nulla obcaecati, quam ratione recusandae
-      repellat, repellendus velit voluptate. Ad alias aperiam aspernatur assumenda aut
-      consectetur culpa dolorem facere illo ipsam magni neque nobis repellat saepe,
-      sapiente totam vitae. Ad assumenda beatae consectetur, eaque magni modi
-      necessitatibus nisi praesentium quisquam quo rem sapiente sed, sit tempora veritatis
-      voluptatem voluptates. Ad architecto commodi consectetur deleniti dolore ea eius eum
-      exercitationem facilis illum in iure iusto maiores, mollitia nihil obcaecati odit
-      perspiciatis placeat praesentium quaerat quidem repudiandae sit totam ut voluptates!
-      A atque, blanditiis consectetur corporis dicta dolor doloribus ea eius eum nisi
-      perspiciatis porro praesentium quia quod recusandae rem saepe similique vero. Ab
-      amet architecto assumenda aut consequuntur distinctio dolore earum esse laudantium
-      magni nihil pariatur, porro possimus recusandae rerum saepe similique suscipit
-      tempore vel veniam veritatis vitae voluptate voluptates! Eligendi excepturi ipsum
-      libero optio, sapiente velit voluptas. Animi asperiores assumenda aut autem
-      dignissimos doloremque doloribus, ducimus ea, enim eum ex excepturi fugiat illum
-      incidunt maiores maxime nemo nesciunt nobis nostrum numquam possimus qui tempore
-      ullam vel velit vitae voluptate. Ad error exercitationem fugit ipsam labore libero
-      molestias sed? Ad cupiditate dicta earum fugit, impedit iure maiores minus
-      necessitatibus numquam officia optio quibusdam quod reiciendis repellendus
-      repudiandae saepe similique totam. Beatae commodi consequuntur cumque delectus
-      deserunt dicta dolores eos esse et eveniet exercitationem facere laudantium magnam
-      modi nisi porro possimus quas quia quos recusandae, reprehenderit sapiente tempora
-      temporibus totam, ullam unde voluptatum. Animi debitis fuga harum mollitia nobis
-      perferendis quam quo, similique? Architecto assumenda aut, commodi dicta dolores
-      dolorum hic in itaque mollitia quae quas repudiandae sapiente similique temporibus
-      voluptate! Aliquam aperiam corporis, debitis deleniti dignissimos ex hic id illo
-      impedit labore nobis quae quaerat quasi quia repellendus tenetur vitae! Architecto,
-      neque odio? Facilis, non tempora?
-    </div>
+
     <hr />
     <div>
       Принимая во внимание, что признание достоинства, присущего всем членам человеческой
