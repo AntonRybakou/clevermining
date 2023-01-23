@@ -27,7 +27,7 @@ const Header = (): ReactElement => {
         </Link>
       </div>
       <nav>
-        <ul className="flex flex-wrap flex-row gap-x-8 relative">
+        <ul className="flex flex-wrap flex-row gap-x-7 relative">
           <li>
             <Link className="header-nav-link" href="/">
               Главная
