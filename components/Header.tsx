@@ -10,10 +10,24 @@ const Header = (): ReactElement => {
   return (
     <header className="header-wrapper">
       <Link className="uppercase font-['Press_Start_2P'] text-2xl" href="/">
-        <p>Clevermining</p>
+        Clevermining
       </Link>
+      <div className="hidden lg:flex flex-col flex-wrap">
+        <Link
+          className="hover:text-orange-500 before:content-['\260E'] before:mr-2"
+          href="tel:+74956486278"
+        >
+          + 7(495)648-62-78
+        </Link>
+        <Link
+          className="hover:text-orange-500 before:content-['\2709'] before:mr-2"
+          href="mailto:ask@clevermining.ru"
+        >
+          ask@clevermining.ru
+        </Link>
+      </div>
       <nav>
-        <ul className="flex flex-wrap flex-row gap-x-10 relative">
+        <ul className="flex flex-wrap flex-row gap-x-8 relative">
           <li>
             <Link className="header-nav-link" href="/">
               Главная

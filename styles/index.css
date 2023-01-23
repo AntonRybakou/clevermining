@@ -15,13 +15,13 @@ html, body {
 
 .header-wrapper {
     @apply sticky top-0 left-0 right-0 z-10;
-    @apply w-full px-5 min-h-[5rem] flex items-center justify-between;
-    @apply sm:px-10 lg:px-20 xl:px-32;
+    @apply min-h-[5rem] flex flex-wrap items-center justify-between;
+    @apply px-10 xl:px-32;
     @apply bg-neutral-800/50 backdrop-blur-sm;
 }
 
 .header-nav-link {
-    @apply hover:text-orange-500 p-1.5 text-2xl font-medium tracking-wider;
+    @apply hover:text-orange-500 py-1.5 text-2xl font-medium tracking-wider;
     @apply hover:underline hover:underline-offset-2 decoration-2;
 }
 
@@ -31,7 +31,7 @@ html, body {
 }
 
 .main-wrapper {
-    @apply max-w-7xl my-0 xl:mx-auto lg:mx-20 sm:mx-10;
+    @apply max-w-7xl my-0 mx-10 xl:w-full xl:mx-auto;
     @apply flex flex-col flex-wrap flex-auto border border-red-600;
 
 }
