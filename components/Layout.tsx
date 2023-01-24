@@ -3,7 +3,7 @@ import React, { ReactElement, ReactNode } from 'react';
 import Head from 'next/head';
 
 import Footer from 'components/Footer';
-import Header from 'components/Header';
+import Header from 'components/header/Header';
 
 type Props = {
   children?: ReactNode;
