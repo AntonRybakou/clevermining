@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const HeaderContactsLinks = (): ReactElement => {
   return (
-    <div className="hidden lg:flex flex-col flex-wrap">
+    <div className="hidden lg:flex flex-col flex-wrap font-light">
       <Link
         className="hover:text-orange-500 my-1 flex items-center"
         href="tel:+74956486278"

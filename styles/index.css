@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html, body {
-    @apply h-full font-['Jost'] bg-neutral-800 text-[#fffffe]
+    @apply h-full font-['Jost'] bg-neutral-800 text-gray-50
 }
 
 #__next {

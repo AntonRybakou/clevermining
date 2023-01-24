@@ -1,10 +1,14 @@
 import React, { ReactElement } from 'react';
 
+import ContactForm from 'components/ContactForm';
 import Layout from 'components/Layout';
 
 const Contacts = (): ReactElement => (
   <Layout title="Контакты | Clevermining">
-    <h1>CONTACTS PAGE</h1>
+    <div className="flex flex-col flex-wrap items-center mx-auto">
+      <h1>CONTACTS PAGE</h1>
+      <ContactForm />
+    </div>
   </Layout>
 );
 
