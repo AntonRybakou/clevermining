@@ -9,7 +9,7 @@ const Nav = (): ReactElement => {
 
   return (
     <nav>
-      <ul className="flex flex-wrap flex-row gap-x-7 relative">
+      <ul className="hidden md:flex flex-wrap flex-row gap-x-7 relative">
         <li>
           <Link className="header-nav-link" href="/">
             Главная
@@ -35,6 +35,17 @@ const Nav = (): ReactElement => {
           </Link>
         </li>
       </ul>
+      <button className="md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
     </nav>
   );
 };

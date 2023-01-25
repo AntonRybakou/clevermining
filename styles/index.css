@@ -16,7 +16,7 @@ html, body {
 .header-wrapper {
     @apply sticky top-0 left-0 right-0 z-10;
     @apply min-h-[5rem] flex flex-wrap items-center justify-between;
-    @apply px-10 xl:px-32;
+    @apply px-10;
     @apply bg-neutral-800/50 backdrop-blur-sm;
 }
 
