@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 html, body {
-    @apply h-full font-['Jost'] bg-neutral-800 text-gray-50
+    @apply h-full font-['Jost'] bg-neutral-800 text-gray-100
 }
 
 #__next {
@@ -21,17 +21,17 @@ html, body {
 }
 
 .header-nav-link {
-    @apply hover:text-orange-500 py-1.5 text-2xl font-medium tracking-wider;
+    @apply hover:text-orange-500 py-1.5 text-xl font-medium tracking-wider;
     @apply hover:underline hover:underline-offset-2 decoration-2;
 }
 
 .products-sub-menu {
-    @apply absolute z-10 w-64 p-1.5 rounded-l-lg bg-gradient-to-r from-neutral-900;
+    @apply absolute z-10 w-64 p-2 rounded-lg bg-gradient-to-t from-neutral-900;
     @apply to-neutral-800;
 }
 
 .main-wrapper {
-    @apply max-w-7xl my-0 mx-10 xl:w-full xl:mx-auto;
-    @apply flex flex-col flex-wrap flex-auto border border-red-600;
+    @apply max-w-screen-xl my-0 mx-10 xl:w-full xl:mx-auto;
+    @apply flex flex-col flex-wrap flex-auto;
 
 }
