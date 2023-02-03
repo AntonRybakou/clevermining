@@ -5,9 +5,9 @@ import Image from 'next/image';
 import logo from 'image/excavator-pixel.png';
 
 const Footer = (): ReactElement => (
-  <footer className="relative h-24 flex items-center justify-center bg-gradient-to-b from-neutral-800 to-black">
-    <div className="flex flex-wrap max-w-7xl items-center justify-between">
-      2023 © All Rights Reserved. Clevermining
+  <footer className="relative h-24 flex items-center justify-center bg-black">
+    <div className="flex flex-wrap max-w-7xl items-center justify-between text-gray-50">
+      Copyright © 2023 Clevermining. All rights reserved.
     </div>
     <Image
       src={logo}

@@ -11,8 +11,8 @@ const Header = (): ReactElement => {
       <Link className="uppercase font-['Press_Start_2P'] text-lg" href="/">
         Clevermining
       </Link>
-      <HeaderContactsLinks />
       <Nav />
+      <HeaderContactsLinks />
     </header>
   );
 };

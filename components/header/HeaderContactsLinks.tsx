@@ -6,7 +6,7 @@ const HeaderContactsLinks = (): ReactElement => {
   return (
     <div className="hidden lg:flex flex-col flex-wrap font-light">
       <Link
-        className="hover:text-orange-500 my-1 flex items-center"
+        className="hover:text-blue-500 my-1 flex items-center"
         href="tel:+74956486278"
       >
         <svg
@@ -21,7 +21,7 @@ const HeaderContactsLinks = (): ReactElement => {
         <span>+ 7 (495) 648-62-78</span>
       </Link>
       <Link
-        className="hover:text-orange-500 my-1 flex items-center"
+        className="hover:text-blue-500 my-1 flex items-center"
         href="mailto:ask@clevermining.ru"
       >
         <svg
