@@ -21,8 +21,7 @@ html, body {
 }
 
 .header-nav-link {
-    @apply py-1.5 text-xl font-medium tracking-wider;
-    @apply hover:underline hover:underline-offset-2 decoration-2;
+    @apply py-1.5 text-neutral-500 text-xl font-medium tracking-wide hover:text-neutral-900;
 }
 
 .products-sub-menu {
