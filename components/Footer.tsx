@@ -12,7 +12,7 @@ const Footer = (): ReactElement => (
     <Image
       src={logo}
       alt="clevermining-logo"
-      className="absolute bottom-0 right-0"
+      className="invisible md:visible absolute bottom-0 right-0"
       height="300"
       width="300"
     />

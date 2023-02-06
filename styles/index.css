@@ -14,22 +14,16 @@ html, body {
 }
 
 .header-wrapper {
-    @apply sticky top-0 left-0 right-0 z-10;
-    @apply min-h-[5rem] flex flex-wrap items-center justify-between;
-    @apply px-10;
+    @apply sticky top-0 left-0 right-0 px-10 z-10;
+    @apply min-h-[5rem] flex flex-wrap items-center justify-between xl:justify-around;
     @apply backdrop-blur-sm bg-white/[.60];
 }
 
 .header-nav-link {
-    @apply py-1.5 text-neutral-500 text-xl font-medium tracking-wide hover:text-neutral-900;
-}
-
-.products-sub-menu {
-    @apply absolute z-10 w-64 p-2 border rounded-lg bg-white backdrop-blur-sm;
+    @apply py-1.5 text-neutral-500 text-xl font-medium tracking-wide hover:text-neutral-900
 }
 
 .main-wrapper {
     @apply max-w-screen-xl my-0 mx-10 xl:w-full xl:mx-auto;
     @apply flex flex-col flex-wrap flex-auto;
-
 }
