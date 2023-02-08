@@ -1,8 +1,7 @@
 import React, { ReactElement } from 'react';
 
-import { motion } from 'framer-motion';
-
 import Layout from 'components/Layout';
+import ProductCard from 'components/ProductCard';
 
 const Index = (): ReactElement => (
   <Layout title='Продукты | Clevermining'>
@@ -72,46 +71,7 @@ const Index = (): ReactElement => (
       tempore ut veritatis.
     </div>
     <hr className='my-5' />
-    <motion.div
-      className='w-full h-20 my-5 border rounded-lg flex flex-col items-center justify-center'
-      initial={{ x: -80, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-        ease: 'easeOut',
-      }}>This is text
-    </motion.div>
-    <motion.div
-      className='w-full h-20 my-5 border rounded-lg flex flex-col items-center justify-center'
-      initial={{ x: 80, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-        ease: 'easeOut',
-      }}>This is text
-    </motion.div>
-    <motion.div
-      className='w-full h-20 my-5 border rounded-lg flex flex-col items-center justify-center'
-      initial={{ x: -80, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-        ease: 'easeOut',
-      }}>This is text
-    </motion.div>
-    <motion.div
-      className='w-full h-20 my-5 border rounded-lg flex flex-col items-center justify-center'
-      initial={{ x: 80, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-      viewport={{ once: true }}
-      transition={{
-        duration: 1,
-        ease: 'easeOut',
-      }}>This is text
-    </motion.div>
+    <ProductCard />
   </Layout>
 );
 
