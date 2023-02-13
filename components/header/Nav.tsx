@@ -23,7 +23,7 @@ const Nav = (): ReactElement => {
       </button>
       <nav className={`md:block ${isMenuOpen ? '' : 'hidden'}`}>
         <div
-          className='flex flex-wrap flex-row gap-x-7 relative'>
+          className='flex flex-wrap flex-row items-center justify-center gap-x-7 relative'>
           <div>
             <Link className='header-nav-link relative' href='/'>
               Главная
@@ -33,9 +33,9 @@ const Nav = (): ReactElement => {
             onMouseEnter={() => setIsSubMenuOpen(true)}
             onMouseLeave={() => setIsSubMenuOpen(false)}
           >
-            <Link className='header-nav-link' href='/products'>
+            <span className='header-nav-link cursor-pointer'>
               Продукты
-            </Link>
+            </span>
             {isSubMenuOpen && <ProductsSubMenu />}
           </div>
           <div>

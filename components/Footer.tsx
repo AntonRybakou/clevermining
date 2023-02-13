@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 
 import Image from 'next/image';
 
-import logo from 'image/excavator-pixel.png';
+import logo from 'public/images/excavator-pixel.png';
 
 const Footer = (): ReactElement => (
   <footer className="relative h-24 flex items-center justify-center bg-black">

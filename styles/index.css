@@ -14,7 +14,7 @@ html, body {
 }
 
 .header-wrapper {
-    @apply sticky top-0 z-10 min-h-[5rem];
+    @apply sticky top-0 z-10 min-h-fit;
     @apply flex flex-wrap items-center justify-between px-10 xl:justify-evenly;
     @apply backdrop-blur-sm bg-white/[.60];
 }
@@ -24,6 +24,6 @@ html, body {
 }
 
 .main-wrapper {
-    @apply max-w-screen-xl xl:w-full my-0 mx-10 xl:mx-auto;
+    @apply max-w-screen-xl xl:w-full sm:mx-10 xl:mx-auto;
     @apply flex flex-col flex-wrap flex-auto;
 }
