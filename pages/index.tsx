@@ -23,10 +23,6 @@ const IndexPage = (): ReactElement => (
       </div>
     </div>
     <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
-    <ProductCard/>
   </Layout>
 );
 
