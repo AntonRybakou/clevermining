@@ -13,12 +13,12 @@ type ProductCardType = {
 }
 
 export const ProductCard: React.FC<ProductCardType> = ({
-                                                  id,
-                                                  title,
-                                                  image,
-                                                  description,
-                                                  link,
-                                                }) => {
+                                                         id,
+                                                         title,
+                                                         image,
+                                                         description,
+                                                         link,
+                                                       }) => {
   return (
     <motion.div
       key={id}
@@ -30,17 +30,20 @@ export const ProductCard: React.FC<ProductCardType> = ({
         duration: 1,
         ease: 'easeOut',
       }}>
-      <div className='relative block w-56 h-56'>
+      <div className='hidden sm:block relative block w-56 h-56'>
         <Image src={image}
                alt='product image'
                fill
         />
       </div>
-
-      <div className='h-fill my-5 py-5 w-3/5 bg-neutral-600'>
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <Link href={link}>Подробнее</Link>
+      <div className='h-fill my-5 w-3/4 sm:w-1/2 flex flex-col'>
+        <h2 className='text-2xl mb-5'><strong>{title}</strong></h2>
+        <p>{description} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+          amet cupiditate dolore eos eum excepturi obcaecati odit perferendis sed
+          sint! </p>
+        <Link
+          className='w-fit border border-black text-white bg-black hover:text-black hover:bg-white px-5 py-2.5 mt-5'
+          href={link}>Подробнее</Link>
       </div>
     </motion.div>
   );
