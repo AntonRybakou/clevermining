@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,11 +20,11 @@ html, body {
 .header-wrapper {
     @apply sticky top-0 z-10 min-h-fit;
     @apply flex flex-wrap items-center justify-between px-10 xl:justify-evenly;
-    @apply backdrop-blur-sm bg-white/[.60];
+    @apply bg-white border-b shadow-md;
 }
 
 .header-nav-link {
-    @apply py-1.5 text-neutral-500 text-xl font-medium tracking-wide hover:text-neutral-900
+    @apply py-1.5 text-neutral-500 text-lg hover:text-neutral-900
 }
 
 .main-wrapper {

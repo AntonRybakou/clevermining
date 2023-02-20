@@ -22,7 +22,8 @@ export const ProductCard: React.FC<ProductCardType> = ({
   return (
     <motion.div
       key={id}
-      className='w-full my-5 border flex flex-center justify-center items-start gap-10 justify-items-center'
+      className='w-full my-5 gap-10 justify-items-center shadow-md
+      flex flex-center justify-center items-start '
       initial={{ y: 80, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true }}
@@ -37,13 +38,15 @@ export const ProductCard: React.FC<ProductCardType> = ({
         />
       </div>
       <div className='h-fill my-5 w-3/4 sm:w-1/2 flex flex-col'>
-        <h2 className='text-2xl mb-5'><strong>{title}</strong></h2>
+        <h3 className='text-2xl mb-5'><strong>{title}</strong></h3>
         <p>{description} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
           amet cupiditate dolore eos eum excepturi obcaecati odit perferendis sed
           sint! </p>
-        <Link
-          className='w-fit border border-black text-white bg-black hover:text-black hover:bg-white px-5 py-2.5 mt-5'
-          href={link}>Подробнее</Link>
+        <button
+          className='w-fit border border-black text-white bg-black px-5 py-2.5 mt-5
+          hover:text-black hover:bg-white active:text-white active:bg-black'>
+          <Link href={link}>Подробнее</Link>
+        </button>
       </div>
     </motion.div>
   );
