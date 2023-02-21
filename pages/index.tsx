@@ -33,7 +33,7 @@ const productsData = [
 const IndexPage = (): ReactElement => (
   <Layout title='Главная | Clevermining'>
     <VideoBgBlock />
-    <div className='flex flex-col gap-10 items-center justify-center my-10'>
+    <div className='flex flex-col gap-10 items-center justify-center my-5'>
       <h2 className='text-4xl font-bold'>Мы предлагаем</h2>
       <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'
            stroke='currentColor' className='animate-bounce w-10 h-10'>
