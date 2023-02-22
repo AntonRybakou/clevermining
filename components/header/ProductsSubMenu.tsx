@@ -11,27 +11,27 @@ const ProductsSubMenu = (): ReactElement => (
                 duration: 0.6,
                 ease: 'easeOut',
               }}>
-    <div className='text-lg text-neutral-500 hover:text-neutral-900'>
+    <div className='text-neutral-500 hover:text-neutral-900'>
       <Link href='/products/intsite'>
         <p><strong>INTSITE</strong> - технология компьютерного зрения</p>
       </Link>
     </div>
     <hr />
-    <div className='text-lg text-neutral-500 hover:text-neutral-900'>
+    <div className='text-neutral-500 hover:text-neutral-900'>
       <Link href='/products/sleipner'>
         <p><strong>Sleipner</strong> - системы транспортировки</p>
       </Link>
     </div>
     <hr />
-    <div className='text-lg text-neutral-500 hover:text-neutral-900'>
+    <div className='text-neutral-500 hover:text-neutral-900'>
       <Link href='/products/evaporationking'>
         <p><strong>Evaporation King</strong> - системы испарения</p>
       </Link>
     </div>
     <hr />
-    <div className='text-lg text-neutral-500 hover:text-neutral-900'>
+    <div className='text-neutral-500 hover:text-neutral-900'>
       <Link href='/products/reactive'>
-        <p>Реактивные установки очистки вагонов</p>
+        <p><strong>Реактивные установки</strong> очистки вагонов</p>
       </Link>
     </div>
   </motion.div>
