@@ -3,23 +3,20 @@ import { ReactElement, useState } from 'react';
 import Link from 'next/link';
 
 import ProductsSubMenu from 'components/header/ProductsSubMenu';
+import { MenuIcon } from 'components/svg/MenuIcon';
 
 const Nav = (): ReactElement => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
 
+  const toggleMenu = (): void => setIsMenuOpen(!isMenuOpen);
+  const openSubMenu = (): void => setIsSubMenuOpen(true);
+  const closeSubMenu = (): void => setIsSubMenuOpen(false);
+
   return (
     <>
-      <button className='block md:hidden' onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 24 24'
-          stroke='currentColor'
-          className='w-6 h-6'
-        >
-          <path d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5' />
-        </svg>
+      <button className='block md:hidden' onClick={toggleMenu}>
+        <MenuIcon />
       </button>
       <nav className={`md:block ${isMenuOpen ? '' : 'hidden'}`}>
         <div
@@ -30,8 +27,8 @@ const Nav = (): ReactElement => {
             </Link>
           </div>
           <div
-            onMouseEnter={() => setIsSubMenuOpen(true)}
-            onMouseLeave={() => setIsSubMenuOpen(false)}
+            onMouseEnter={openSubMenu}
+            onMouseLeave={closeSubMenu}
           >
             <span className='header-nav-link cursor-pointer'>
               Продукты
